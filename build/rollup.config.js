@@ -16,6 +16,8 @@ const config = {
         vue({
             css: true,
             compileTemplate: true,
+            productionSourceMap: false,
+            optimizeSSR: true,
         }),
         buble(),
     ],
